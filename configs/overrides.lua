@@ -9,9 +9,16 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
+    "vue",
+    "json",
+    "yaml",
     "c",
+    "go",
     "markdown",
     "markdown_inline",
+    "bash",
+    "dockerfile",
+    "graphql",
   },
   indent = {
     enable = true,
@@ -33,10 +40,24 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+    "vue-language-server",
+    "angular-language-server",
+    "tailwindcss-language-server",
 
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- go stuff
+    "gopls",
+
+    -- docker stuff
+    "yaml-language-server",
+    "dockerfile-language-server",
+    "docker-compose-language-service",
+
+    -- typing stuff
+    "write-good",
   },
 }
 
