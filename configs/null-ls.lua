@@ -29,7 +29,17 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+
+  b.completion.spell,
+  b.diagnostics.eslint,
+  b.diagnostics.yamllint,
+  b.diagnostics.write_good,
+  -- b.diagnostics.cspell,
+  -- b.diagnostics.codespell,
 }
+
+-- Formatting on save
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 null_ls.setup {
   debug = true,

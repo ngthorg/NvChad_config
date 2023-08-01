@@ -52,11 +52,14 @@ M.mason = {
     "gopls",
 
     -- docker stuff
+    "yamllint",
     "yaml-language-server",
     "dockerfile-language-server",
     "docker-compose-language-service",
 
     -- typing stuff
+    "cspell",
+    "codespell",
     "write-good",
   },
 }
