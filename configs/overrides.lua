@@ -50,6 +50,9 @@ M.mason = {
 
     -- go stuff
     "gopls",
+    "gofumpt",
+    "golines",
+    "goimports",
 
     -- docker stuff
     "yamllint",
