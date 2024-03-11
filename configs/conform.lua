@@ -5,9 +5,15 @@ local options = {
 	formatters_by_ft = {
 		lua = { "stylua" },
 
-		javascript = { "prettier" },
 		css = { "prettier" },
 		html = { "prettier" },
+		yaml = { "prettier" },
+		json = { "prettier" },
+		markdown = { "prettier" },
+		javascript = { "prettier" },
+		typescript = { "prettier" },
+		javascriptreact = { "prettier" },
+		typescriptreact = { "prettier" },
 
 		sh = { "shfmt" },
 	},
